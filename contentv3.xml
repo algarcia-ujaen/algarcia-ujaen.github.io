@@ -2207,7 +2207,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
   <string role="key" value="scowwebsite"></string>
   <bool value="0"></bool>
   <string role="key" value="style"></string>
-  <unicode value="docs"></unicode>
+  <unicode value="cedec"></unicode>
   <string role="key" value="sugaractivityname"></string>
   <string value=""></string>
   <string role="key" value="sugarservicename"></string>
