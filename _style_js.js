@@ -70,24 +70,18 @@ var myTheme = {
 	setNavHeight : function(){
 		var n = $("#siteNav");
 		var c = $("#main-wrapper");
-		if (typeof(myTheme.mediaWrapped)=='undefined') {
-			$("video.mediaelement",c).each(function(){
-				var h = this.height;
-				if (h && !isNaN(h) && h>0) {
-					// Issue #480
-					$(this).wrapp('<span style="height:'+h+'px"></span>');
-				}
-			});
-			myTheme.mediaWrapped = true;	
-		}
 		var nH = n.height();
 		var cH = c.height();
 		var isMobile = $("#siteNav").css("float")=="none";
 		if (cH<nH) {
 			cH = nH;
-			if (!isMobile) c.height(cH);
+			if (!isMobile) {
+				var s = c.attr("style");
+				if (s) c.css("min-height",cH+"px");
+				else c.attr("style","height:auto!important;height:"+cH+"px;min-height:"+cH+"px");
+			}
 		}
-		var h = (cH-nH+40)+"px";
+		var h = (cH-nH+24)+"px";
 		var m = 0;
 		if (isMobile) {
 			h = 0;
