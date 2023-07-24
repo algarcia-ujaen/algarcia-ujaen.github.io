@@ -6,6 +6,8 @@
   <unicode value="Ángel Luis García Fernández"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
+  <string role="key" value="_addExeLink"></string>
+  <bool value="0"></bool>
   <string role="key" value="_addPagination"></string>
   <bool value="0"></bool>
   <string role="key" value="_addSearchBox"></string>
@@ -82,6 +84,8 @@
    <unicode value="Sección"></unicode>
    <unicode value="Unidad"></unicode>
   </list>
+  <string role="key" value="_loadMathEngine"></string>
+  <bool value="0"></bool>
   <string role="key" value="_name"></string>
   <unicode value="website"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
@@ -170,13 +174,20 @@
            <string value=""></string>
            <string role="key" value="anchor_names"></string>
            <list></list>
+           <string role="key" value="anchors_linked_from_fields"></string>
+           <dictionary></dictionary>
            <string role="key" value="content_w_resourcePaths"></string>
            <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;&lt;img src=&quot;resources/algarcia_2020_200x200.png&quot; alt=&quot;Foto de Ángel Luis&quot; style=&quot;float: left; margin-right: 20px; margin-left: 20px;&quot; width=&quot;200&quot; height=&quot;200&quot; /&gt;&lt;/p&gt;
 &lt;div class=&quot;exe-fx exe-tabs&quot;&gt;
 &lt;h2&gt;Español&lt;/h2&gt;
-¡Hola! Utiliza los enlaces del menú para acceder a las distintas secciones de esta web
+&lt;p&gt;¡Hola!&lt;/p&gt;
+&lt;p&gt;Soy profesor en el &lt;a href=&quot;https://www.ujaen.es/departamentos/dinformatica/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Departamento de Informática&lt;/a&gt; de la &lt;a href=&quot;https://www.ujaen.es&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Universidad de Jaén&lt;/a&gt; (España) desde el año 2004.&lt;/p&gt;
+&lt;p&gt;Utiliza los enlaces del menú para acceder a las distintas secciones de esta web.&lt;/p&gt;
 &lt;h2&gt;English&lt;/h2&gt;
-Hi! Use the links of the menu to access to the different sections of this website&lt;/div&gt;&lt;/div&gt;"></unicode>
+&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;I am a lecturer at the &lt;a href=&quot;https://www.ujaen.es/departamentos/dinformatica/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Computer Science Department&lt;/a&gt; of the &lt;a href=&quot;https://www.ujaen.es&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;University of Jaén&lt;/a&gt; (Spain) since 2004.&lt;/p&gt;
+&lt;p&gt;Use the links of the menu to access the different sections of this website.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;"></unicode>
            <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
            <int value="4"></int>
            <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -196,7 +207,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
                 <instance class="exe.engine.field.TextField">
                  <dictionary>
                   <string role="key" value="_id"></string>
-                  <int value="232"></int>
+                  <int value="235"></int>
                   <string role="key" value="_idevice"></string>
                   <none></none>
                   <string role="key" value="_instruc"></string>
@@ -210,7 +221,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
                  </dictionary>
                 </instance>
                 <string role="key" value="_id"></string>
-                <unicode value="1_121_2.0"></unicode>
+                <unicode value="1_121_2.1"></unicode>
                 <string role="key" value="_imageResource"></string>
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
@@ -221,7 +232,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
                   <string role="key" value="_storageName"></string>
                   <string value="algarcia_2020_200x200.png"></string>
                   <string role="key" value="_userName"></string>
-                  <string value="/tmp/tmpeQXgp6.eXe/previews/allyourbase/algarcia_2020_200x200.png"></string>
+                  <string value="/tmp/tmpUa9Y6E/algarcia_2020_200x200.png"></string>
                   <string role="key" value="checksum"></string>
                   <string value="eb09d5b46bbba8a2fa470a453f872b37"></string>
                   <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -250,7 +261,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
            <string role="key" value="intlinks_to_anchors"></string>
            <dictionary></dictionary>
            <string role="key" value="nextImageId"></string>
-           <int value="1"></int>
+           <int value="2"></int>
            <string role="key" value="parentNode"></string>
            <reference key="4"></reference>
           </dictionary>
@@ -380,6 +391,8 @@ Hi! Use the links of the menu to access to the different sections of this websit
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-tabs&quot;&gt;
 &lt;h2&gt;Español&lt;/h2&gt;
@@ -428,7 +441,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
               <string role="key" value="nextImageId"></string>
               <int value="0"></int>
               <string role="key" value="parentNode"></string>
-              <none></none>
+              <reference key="8"></reference>
              </dictionary>
             </instance>
            </list>
@@ -556,6 +569,8 @@ Hi! Use the links of the menu to access to the different sections of this websit
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-tabs&quot;&gt;
 &lt;h2&gt;Español&lt;/h2&gt;
@@ -602,7 +617,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="233"></int>
+                     <int value="238"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -616,7 +631,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="3_123_2.0"></unicode>
+                   <unicode value="3_123_2.1"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="12">
                     <dictionary>
@@ -627,7 +642,59 @@ Hi! Use the links of the menu to access to the different sections of this websit
                      <string role="key" value="_storageName"></string>
                      <string value="rg_new-index-logo.svg"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpeQXgp6.eXe/previews/allyourbase/rg_new-index-logo.svg"></string>
+                     <string value="/tmp/tmpUa9Y6E/rg_new-index-logo.svg"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="15c055b40143b2a4162469be5ef0b40a"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="10"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="239"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="3_123_2.2"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="13">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="9"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="rg_new-index-logo.svg"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="/tmp/tmpUa9Y6E/rg_new-index-logo.svg"></string>
                      <string role="key" value="checksum"></string>
                      <string value="15c055b40143b2a4162469be5ef0b40a"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -656,7 +723,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="1"></int>
+              <int value="3"></int>
               <string role="key" value="parentNode"></string>
               <reference key="11"></reference>
              </dictionary>
@@ -683,6 +750,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
            <string role="key" value="userResources"></string>
            <list>
             <reference key="12"></reference>
+            <reference key="13"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -709,13 +777,13 @@ Hi! Use the links of the menu to access to the different sections of this websit
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="15">
+      <instance class="exe.engine.node.Node" reference="16">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Contacto / Contact"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="13">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="14">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value=""></unicode>
@@ -776,18 +844,20 @@ Hi! Use the links of the menu to access to the different sections of this websit
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="14">
+            <instance class="exe.engine.field.TextAreaField" reference="15">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="124_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="13"></reference>
+              <reference key="14"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
               <string value=""></string>
               <string role="key" value="anchor_names"></string>
               <list></list>
+              <string role="key" value="anchors_linked_from_fields"></string>
+              <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
               <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;div class=&quot;exe-fx exe-tabs&quot;&gt;
 &lt;h2&gt;Español&lt;/h2&gt;
@@ -817,7 +887,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="234"></int>
+                     <int value="236"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -831,18 +901,18 @@ Hi! Use the links of the menu to access to the different sections of this websit
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="4_124_2.0"></unicode>
+                   <unicode value="4_124_2.1"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="16">
+                   <instance class="exe.engine.resource.Resource" reference="17">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="13"></reference>
+                     <reference key="14"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="2"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="dondeuj.gif"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="/tmp/tmpeQXgp6.eXe/previews/allyourbase/dondeuj.gif"></string>
+                     <string value="/tmp/tmpUa9Y6E/dondeuj.gif"></string>
                      <string role="key" value="checksum"></string>
                      <string value="185a90100201dbc93633e642bb97cd17"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -854,7 +924,59 @@ Hi! Use the links of the menu to access to the different sections of this websit
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="14"></reference>
+                   <reference key="15"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="237"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="4_124_2.2"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="18">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="14"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="2"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="dondeuj.gif"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="/tmp/tmpUa9Y6E/dondeuj.gif"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="185a90100201dbc93633e642bb97cd17"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="15"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -865,15 +987,15 @@ Hi! Use the links of the menu to access to the different sections of this websit
                  </instance>
                 </list>
                 <string role="key" value="idevice"></string>
-                <reference key="14"></reference>
+                <reference key="15"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="1"></int>
+              <int value="3"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="15"></reference>
+              <reference key="16"></reference>
              </dictionary>
             </instance>
            </list>
@@ -890,14 +1012,15 @@ Hi! Use the links of the menu to access to the different sections of this websit
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="15"></reference>
+           <reference key="16"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
-            <reference key="16"></reference>
+            <reference key="17"></reference>
+            <reference key="18"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -932,7 +1055,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
    <unicode role="key" value="2"></unicode>
    <reference key="8"></reference>
    <unicode role="key" value="3"></unicode>
-   <reference key="15"></reference>
+   <reference key="16"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -982,7 +1105,7 @@ Hi! Use the links of the menu to access to the different sections of this websit
   <string role="key" value="exe.engine.package.Package.persistenceVersion"></string>
   <int value="16"></int>
   <string role="key" value="exportMetadataType"></string>
-  <string value="LOMES"></string>
+  <unicode value="LOMES"></unicode>
   <string role="key" value="exportSource"></string>
   <bool value="1"></bool>
   <string role="key" value="footer"></string>
@@ -2188,10 +2311,12 @@ Hi! Use the links of the menu to access to the different sections of this websit
    <string role="key" value="15c055b40143b2a4162469be5ef0b40a"></string>
    <list>
     <reference key="12"></reference>
+    <reference key="13"></reference>
    </list>
    <string role="key" value="185a90100201dbc93633e642bb97cd17"></string>
    <list>
-    <reference key="16"></reference>
+    <reference key="17"></reference>
+    <reference key="18"></reference>
    </list>
    <string role="key" value="eb09d5b46bbba8a2fa470a453f872b37"></string>
    <list>
